@@ -14,7 +14,7 @@ class AddGoodsWidget extends StatelessWidget {
           ListTile(
             title: Text(
               '제품 등록',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
+              style: Theme.of(context).textTheme.bodyText1,
             ),
           ),
           ListTile(
@@ -42,7 +42,7 @@ class InOutWidget extends StatelessWidget {
           ListTile(
             title: Text(
               '입고/추가',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
+              style: Theme.of(context).textTheme.bodyText1,
             ),
           ),
           ListTile(
@@ -93,7 +93,7 @@ class OutOfStockWidget extends StatelessWidget {
           ListTile(
             title: Text(
               '재고 부족 알림',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
+              style: Theme.of(context).textTheme.bodyText1,
             ),
           ),
           ListTile(
@@ -121,7 +121,7 @@ class InventoryWidget extends StatelessWidget {
           ListTile(
             title: Text(
               '재고조사',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
+              style: Theme.of(context).textTheme.bodyText1,
             ),
           ),
           ListTile(
@@ -149,7 +149,7 @@ class InviteMemberWidget extends StatelessWidget {
           ListTile(
             title: Text(
               '멤버 추가',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
+              style: Theme.of(context).textTheme.bodyText1,
             ),
           ),
           ListTile(
@@ -177,7 +177,7 @@ class DashBoardWidget extends StatelessWidget {
           ListTile(
             title: Text(
               '대시보드',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
+              style: Theme.of(context).textTheme.bodyText1,
             ),
           ),
           ListTile(
